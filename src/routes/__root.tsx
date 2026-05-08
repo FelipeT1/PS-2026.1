@@ -72,11 +72,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Rotas Seguras RJ — Previsão de risco em linhas de ônibus" },
+      { name: "description", content: "Visualize linhas de ônibus do Rio de Janeiro com previsão de furtos, roubos e tiroteios próximos ao trajeto." },
+      { name: "author", content: "Rotas Seguras RJ" },
+      { property: "og:title", content: "Rotas Seguras RJ — Previsão de risco em linhas de ônibus" },
+      { property: "og:description", content: "Visualize linhas de ônibus do Rio de Janeiro com previsão de furtos, roubos e tiroteios próximos ao trajeto." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
@@ -96,7 +96,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <HeadContent />
       </head>
